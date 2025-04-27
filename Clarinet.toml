@@ -4,6 +4,10 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.app_template_registry]
+path = "contracts/app_template_registry.clar"
+depends_on = []
+
 [contracts.device_registry]
 path = "contracts/device_registry.clar"
 depends_on = []
